@@ -2,20 +2,19 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+        <meta name="viewport"               content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/home.css">
         <link rel="stylesheet" href="css/all.min.css">
-        <title>dashboard</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Texturina:ital,opsz,wght@0,12..72,100;0,12..72,400;0,12..72,500;0,12..72,600;0,12..72,700;1,12..72,100;1,12..72,200;1,12..72,300;1,12..72,400;1,12..72,500;1,12..72,600&display=swap" rel="stylesheet">
-
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Texturina:ital,opsz,wght@0,12..72,100;0,12..72,400;0,12..72,500;0,12..72,600;0,12..72,700;1,12..72,100;1,12..72,200;1,12..72,300;1,12..72,400;1,12..72,500;1,12..72,600&display=swap">
+        <title>Dashboard</title>
     </head>
     <body>
         <div class="page">
             <aside>
-                <div class="content-aside">                    
+                <div class="stiky-content-aside">                    
                     <h2>mohamad</h2>
                     <ul>
                         <li> <a href="index.html"   class="aside-link active"> <i class="fa-solid fa-chart-bar"></i>        <span> dashboard </span> </a> </li>
@@ -30,7 +29,159 @@
                 </div>
             </aside>
             <main>
-                content
+                <header>
+                    <div class="search">
+                        <input type="text" placeholder="Type a Word">
+                    </div>
+                    <div class="icons">
+                        <span class="notification">
+                            <i class="fa-regular fa-bell"></i>
+                        </span>
+                        <img src="imgs/avatar.png" alt="avatar">
+                    </div>
+                </header>
+                <h1>dashboard</h1>
+                <section class="widget">
+                    <article class="welcome">
+                        <div class="intro">
+                            <div>
+                                <h2>welcome</h2>
+                                <span>mohamad</span>
+                            </div>
+                            <img src="imgs/welcome.png" alt="">
+                        </div>
+                        <img class="avatar" src="imgs/avatar.png" alt="">
+                        <ul>
+                            <li>
+                                <span>mohamad khalaf</span>
+                                <span>developer</span>
+                            </li>
+                            <li>
+                                <span>80</span>
+                                <span>project</span>
+                            </li>
+                            <li>
+                                <span>$8500</span>
+                                <span>earned</span>
+                            </li>
+                        </ul>
+                        <a class="btn-home" href="profile.html" class="href">profile</a>
+                    </article>
+                    <article class="quick-draft">
+                        <div class="intro">
+                            <h2>quick draft</h2>
+                            <span class="description-widget">write a draft fot your ideas</span>
+                        </div>
+                        <form action="" method="get">
+                            <input type="text" placeholder="Tile" name="" id="">
+                            <textarea placeholder="Your Thought" name="" id="" cols="30" rows="10"></textarea>
+                            <input class="btn-home" type="submit" value="save">
+                        </form>
+                    </article>
+                    <article class="targets">
+                        <h2>yearly target</h2>
+                        <span class="description-widget">targets of the year</span>
+                        <div class="target-row">
+                            <div class="icon alt-blue"> <i class="fa-solid fa-dollar-sign"></i> </div>
+                            <div class="details">
+                                <span>money</span>
+                                <span>$20,000</span>
+                                <div class="progress alt-blue" >
+                                    <span class="blue" style="width: 40%;"> <span class="blue">40%</span> </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="target-row">
+                            <div class="icon alt-orange"> <i class="fa-solid fa-code"></i> </div>
+                            <div class="details">
+                                <span>project</span>
+                                <span>62</span>
+                                <div class="progress alt-orange">
+                                    <span class="orange" style="width: 40%;" > 
+                                        <span class="orange">40%</span> 
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="target-row">
+                            <div class="icon alt-green"> <i class="fa-solid fa-user"></i> </div>
+                            <div class="details">
+                                <span>money</span>
+                                <span>$20,000</span>
+                                <div class="progress alt-green">
+                                    <span class="green" style="width: 60%;" > <span class="green">40%</span> </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="tickets">
+                        <h2>Tickets Statistics</h2>
+                        <span class="description-widget">Everything About Support Tickets</span>
+                        <div class="boxes">
+                            <div class="box">
+                                <i class="fa-regular fa-rectangle-list"></i>
+                                <span>2500</span>
+                                <span>total</span>
+                            </div>
+                            <div class="box">
+                                <i class="fa-solid fa-spinner"></i>
+                                <span>2500</span>
+                                <span>pending</span>
+                            </div>
+                            <div class="box">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <span>500</span>
+                                <span>closed</span>
+                            </div>
+                            <div class="box">
+                                <i class="fa-regular fa-rectangle-xmark"></i>
+                                <span>14</span>
+                                <span>delete</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="latest-news">
+                        <h2> latest news </h2>
+                        <span class="description-widget">our last my news</span>
+                        
+                        <div class="news-row">
+                            <img src="./imgs/news-01.png" alt="">
+                            <div class="info">
+                                <h3>Created SASS Section</h3>
+                                <p>New SASS Examples & Tutorials</p>
+                            </div>
+                            <span class="secondary-btn">3 days ago</span>
+                        </div>
+
+                        <div class="news-row">
+                            <img src="./imgs/news-02.png" alt="">
+                            <div class="info">
+                                <h3>Changed The Design</h3>
+                                <p>A Brand New Website Design</p>
+                            </div>
+                            <span class="secondary-btn">5 days ago</span>
+                        </div>
+
+                        <div class="news-row">
+                            <img src="./imgs/news-03.png" alt="">
+                            <div class="info">
+                                <h3>Team Increased</h3>
+                                <p>3 Developers Joined The Team</p>
+                            </div>
+                            <span class="secondary-btn">10 days ago</span>
+                        </div>
+
+                        <div class="news-row">
+                            <img src="./imgs/news-04.png" alt="">
+                            <div class="info">
+                                <h3>Added Payment Gateway</h3>
+                                <p>Many New Payment Gateways Added</p>
+                            </div>
+                            <span class="secondary-btn">30 days ago</span>
+                        </div>
+
+                    </article>
+                </section>
             </main>
         </div>
         <script src="js/home.js"></script>
